@@ -1,0 +1,5 @@
+.instruction {
+  display: flex;
+  margin: 0 40px 0;
+  justify-content: space-between;
+}

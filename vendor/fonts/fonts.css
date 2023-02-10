@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Exo-2';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./Exo2-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Exo-3';
+  font-style: normal;
+  font-weight: 800;
+  src: url(./Exo2-ExtraBold.ttf);
+}
