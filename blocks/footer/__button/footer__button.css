@@ -1,0 +1,7 @@
+.footer__button {
+  margin: 10px 10px 0 0;
+}
+
+.footer__button:last-child {
+  margin: 10px 0 0;
+}

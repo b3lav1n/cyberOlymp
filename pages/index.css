@@ -44,3 +44,12 @@
 @import url(../blocks/instruction/__two/instruction__two.css);
 @import url(../blocks/instruction/__three/instruction__three.css);
 @import url(../blocks/instruction/__four/instruction__four.css);
+
+
+/* footer */ 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__images/footer__images.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__images/__image-full/footer__image-full.css);
+@import url(../blocks/footer/__button/footer__button.css);

@@ -1,0 +1,8 @@
+.footer__image-full {
+  width: 673px;
+  min-height: 610px;
+  display: flex;
+  position: absolute;
+  left: 687px;
+  bottom: 0;
+}

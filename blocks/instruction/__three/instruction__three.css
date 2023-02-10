@@ -1,4 +1,12 @@
 .instruction__three {
   width: 332px;
   min-height: 305px;
+  width: 332px;
+  min-height: 305px;
+  width: 332px;
+  min-height: 305px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(152, 44, 166, 0.64), rgba(152, 44, 166, 0.64)), url(../../../images/image_15-2.png);
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
 }
