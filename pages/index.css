@@ -27,6 +27,8 @@
 @import url(../blocks/preview/__logo/preview__logo.css);
 @import url(../blocks/preview/__images/__images-position/preview__images-position.css);
 @import url(../blocks/preview/__images/__images-position_two/preview__images-position_two.css);
+@import url(../blocks/preview/__main-text/preview__main-text.css);
+@import url(../blocks/preview/__subtitle/preview__subtitle.css);
 
 /* info */
 @import url(../blocks/info/info.css);

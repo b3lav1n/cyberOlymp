@@ -1,4 +1,7 @@
 .preview__images-position {
-  position: absolute;
-  
+  background-image: url(../../../../images/image_6.png);
+  background-repeat: no-repeat;
+  width: 330px;
+  min-height: 300px;
 }
+
