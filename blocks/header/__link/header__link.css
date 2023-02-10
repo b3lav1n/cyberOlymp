@@ -1,6 +1,6 @@
 .header__link {
   margin: 0 10px 0 0;
-  transition: opacity 1s ease-in;
+  transition: opacity 1s ease;
 }
 
 .header__link:hover {
