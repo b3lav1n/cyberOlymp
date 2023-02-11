@@ -1,5 +1,39 @@
 .info__image {
   width: 673px;
   min-height: 610px;
-  position: relative;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+  .info__image {
+    display: flex;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .info__image {
+    width: 650px;
+    min-height: 254px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .info__image {
+    width: 590px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .info__image {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-widtH: 570px) {
+  .info__image {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 }

@@ -1,3 +1,18 @@
 .header {
-  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0px 0 37px;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 923px) {
+  .header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .header {
+    display: none;
+  }
 }

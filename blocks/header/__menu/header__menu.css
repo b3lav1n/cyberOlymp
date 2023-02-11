@@ -1,5 +1,18 @@
 .header__menu {
-  display: flex;
   margin: 40px 40px;
 }
 
+@media screen and (max-width: 923px) {
+  .header__menu {
+    display: flex;
+    margin: 20px 20px 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .header__menu {
+    justify-content: center;
+  }
+}

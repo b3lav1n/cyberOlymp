@@ -1,6 +1,24 @@
 .footer__image-full {
-  width: 1360px;
+  width: 100%;
   min-height: 900px;
   display: flex;
-  
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1446px) {
+  .footer__image-full {
+    min-height: 652px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__image-full {
+    min-height: 482px;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .footer__image-full {
+    min-height: 186px;
+  }
 }

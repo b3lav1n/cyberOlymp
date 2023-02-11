@@ -5,4 +5,11 @@
   font-size: 32px;
   line-height: 105%;
   letter-spacing: -0.005em;
+  margin: 0;
+}
+
+@media screen and (max-width: 499px) {
+  .info__title {
+    font-size: 30px;
+  }
 }

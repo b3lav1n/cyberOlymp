@@ -1,0 +1,18 @@
+.footer__title {
+  width: 580px;
+  font-family: 'Exo-3';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 605px) {
+  .footer__title {
+    margin: 0 auto;
+    font-size: 35px;
+    width: 391px;
+    text-align: center;
+  }
+}

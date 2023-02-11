@@ -2,4 +2,23 @@
   display: flex;
   margin: 0 40px 0;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1407px) {
+  .instruction {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .instruction {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 713px) {
+  .instruction {
+    justify-content: center;
+  }
 }

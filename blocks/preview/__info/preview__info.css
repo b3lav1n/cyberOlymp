@@ -1,9 +1,101 @@
 .preview__info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  position: absolute;
-  width: 532px;
-  margin: 31px 0 0 43px;
+  background-image: url(../../../images/dawn.svg);
+  background-repeat: no-repeat;
+  width: 1028px;
+  margin: 0 0 0 43px;
+  min-height: 609px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 0
 }
 
+@media screen and (max-width: 1439px) {
+  .preview__info {
+    width: 1360px;
+    min-height: 800px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .preview__info {
+    width: 1300px;
+    min-height: 800px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .preview__info {
+    width: 1220px;
+    min-height: 750px;
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  .preview__info {
+    width: 1150px;
+    min-height: 700px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .preview__info {
+    width: 1050px;
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .preview__info {
+    width: 984px;
+    min-height: 609px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .preview__info {
+    width: 884px;
+    min-height: 520px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .preview__info {
+    width: 784px;
+    min-height: 420px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .preview__info {
+    max-width: 690px;
+    min-height: 370px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .preview__info {
+    width: 630px;
+    min-height: 370px;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .preview__info {
+    width: 580px;
+  }
+} 
+
+@media screen and (max-width: 580px) {
+  .preview__info {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .preview__info {
+    width: 450px;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 923px) {
+  .header__logo-active {
+    display: none;
+  }
+}

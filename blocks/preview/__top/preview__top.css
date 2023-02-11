@@ -1,5 +1,18 @@
 .preview__top {
   display: flex;
   margin: 49px 40px;
-  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .preview__top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .preview__top {
+    margin: 20px 20px;
+  }
 }
