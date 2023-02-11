@@ -1,0 +1,9 @@
+.footer__link-button {
+
+}
+
+@media screen and (max-width: 689px) {
+  .footer__link-button {
+    display: none;
+  }
+}
