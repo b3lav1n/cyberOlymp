@@ -3,6 +3,16 @@
   background-repeat: no-repeat;
   width: 330px;
   min-height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
+@media screen and (max-width: 689px) {
+  .preview__images-position {
+    max-width: 283px;
+    min-height: 280px;
+  }
+}

@@ -5,3 +5,10 @@
   color: #fff;
   margin: 20px 0 0 43px;
 }
+
+@media screen and (max-width: 689px) {
+  .preview__text {
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+}

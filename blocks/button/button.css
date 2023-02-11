@@ -14,3 +14,12 @@
   background-color: #F5F5F5;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (max-width: 689px) {
+  .button {
+    width: 150px;
+    min-height: 40px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

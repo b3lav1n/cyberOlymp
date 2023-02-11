@@ -6,10 +6,12 @@
   line-height: 105%;
   letter-spacing: -0.005em;
   margin: 0;
+  text-align: center;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 689px) {
   .info__title {
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 48px;
   }
 }

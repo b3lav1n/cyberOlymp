@@ -3,4 +3,15 @@
   width: 330px;
   min-height: 300px;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 689px) {
+  .preview__images-position_two {
+    max-width: 283px;
+    min-height: 280px;
+  }
 }

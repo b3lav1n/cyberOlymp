@@ -7,6 +7,7 @@
   letter-spacing: 0.02em;
   margin: 0;
   padding: 20px 0 289px 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 1050px) {
@@ -16,3 +17,9 @@
   }
 }
 
+@media screen and (max-width: 689px) {
+  .info__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

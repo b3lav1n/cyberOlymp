@@ -6,3 +6,9 @@
   margin: 0;
   padding: 31px 0 0 43px;
 }
+
+@media screen and (max-width: 689px) {
+  .preview__title {
+    padding: 0;
+  }
+}

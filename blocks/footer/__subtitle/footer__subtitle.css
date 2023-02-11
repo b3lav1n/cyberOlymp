@@ -7,12 +7,22 @@
   letter-spacing: 0.02em;
   margin: 20px 0 20px;
   max-width: 816px;
+  margin: 0;
+  padding: 20px 0 20px;
+  text-align: center;
 }
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 1050px) {
   .footer__subtitle {
-    font-size: 20px;
-    width: 302px;
-    margin: 20px auto;
+    padding: 20px 0 14px;
+    max-width: 612px;
   }
 }
+
+@media screen and (max-width: 689px) {
+  .footer__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+

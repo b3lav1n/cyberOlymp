@@ -1,18 +1,29 @@
 .footer__title {
-  width: 580px;
+  max-width: 580px;
   font-family: 'Exo-3';
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0;
 }
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 1050px) {
   .footer__title {
-    margin: 0 auto;
-    font-size: 35px;
-    width: 391px;
-    text-align: center;
+    max-width: 582px;
   }
 }
+
+@media screen and (max-width: 689px) {
+  .footer__title {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+
+
+
+

@@ -1,4 +1,10 @@
 .preview__button {
   margin: 30px 0 0 43px;
-  position: absolute;
 }
+
+@media screen and (max-width: 689px) {
+  .preview__button {
+    margin: 30px 0 0 0;
+  }
+}
+
