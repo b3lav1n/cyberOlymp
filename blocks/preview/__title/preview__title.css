@@ -10,5 +10,7 @@
 @media screen and (max-width: 689px) {
   .preview__title {
     padding: 0;
+    font-size: 40px;
+    line-height: 105%;
   }
 }
