@@ -1,6 +1,6 @@
 .images {
   display: flex;
-  margin: 40px 24px 0 40px;
+  margin: 40px 40px 0 40px;
   flex-wrap: wrap;
 }
 

@@ -63,6 +63,7 @@
 @import url(../blocks/block/__title/block__title.css);
 @import url(../blocks/block/__subtitle/block__subtitle.css);
 @import url(../blocks/block/__links/block__links.css);
+@import url(../blocks/block/__button/block__button.css);
 
 /* images */
 @import url(../blocks/images/images.css);

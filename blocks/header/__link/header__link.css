@@ -1,6 +1,6 @@
 .header__link {
   margin: 0 10px 0 0;
-  transition: opacity 1s ease;
+  transition: opacity;
   max-width: 332px;
 }
 
@@ -8,6 +8,3 @@
   opacity: 0.5;
 }
 
-.header__link:last-child {
-  margin: 0;
-}

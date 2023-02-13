@@ -2,4 +2,10 @@
   background-color: #29386F;
   color: #fff;
   padding: 0;
+  transition: none;
 }
+
+.button_color:hover {
+  
+}
+
