@@ -1,0 +1,18 @@
+.info__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: 1s opacity ease;
+}
+
+.info__link:hover {
+  opacity: .5
+}
+
+@media screen and (max-width: 689px) {
+  .info__link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

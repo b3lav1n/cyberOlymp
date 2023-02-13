@@ -1,6 +1,6 @@
 .preview__top {
   display: flex;
-  margin: 49px 40px;
+  margin: 0px 40px 49px;
 }
 
 @media screen and (max-width: 1439px) {

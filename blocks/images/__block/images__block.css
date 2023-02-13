@@ -1,0 +1,8 @@
+.images__block {
+  display: flex;
+  background-image: url(../../../images/meepo.svg);
+  min-height: 609px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  width: 1018px;
+}

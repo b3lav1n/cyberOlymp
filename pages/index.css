@@ -39,9 +39,12 @@
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__text/info__text.css);
+@import url(../blocks/info/__links/info__links.css);
+@import url(../blocks/info/__link/info__link.css);
 @import url(../blocks/info/__subtitle/info__subtitle.css);
 @import url(../blocks/info/__image/info__image.css);
 @import url(../blocks/info/__button/info__button.css);
+
 
 /* instruction */
 @import url(../blocks/instruction/instruction.css);
@@ -53,17 +56,24 @@
 @import url(../blocks/instruction/__four/instruction__four.css);
 
 
-/* footer */ 
+/* block */ 
+@import url(../blocks/block/block.css);
+@import url(../blocks/block/__image/block__image.css);
+@import url(../blocks/block/__text/block__text.css);
+@import url(../blocks/block/__title/block__title.css);
+@import url(../blocks/block/__subtitle/block__subtitle.css);
+@import url(../blocks/block/__links/block__links.css);
+
+/* images */
+@import url(../blocks/images/images.css);
+@import url(../blocks/images/__group-one/images__group-one.css);
+@import url(../blocks/images/__link/images__link.css);
+@import url(../blocks/images/__block/images__block.css);
+@import url(../blocks/images/__title/images__title.css);
+@import url(../blocks/images/__subtitle/images__subtitle.css);
+@import url(../blocks/images/__image/images__image.css);
+
+/* footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__subtitle/footer__subtitle.css);
-@import url(../blocks/footer/__images/footer__images.css);
-@import url(../blocks/footer/__image/footer__image.css);
-@import url(../blocks/footer/__images/__image-full/footer__image-full.css);
-@import url(../blocks/footer/__button/footer__button.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/__link-social/footer__link-social.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__button/__buttton-active/footer__button-aictive.css);
-@import url(../blocks/footer/__link-button/footer__link-button.css);
+@import url(../blocks/footer/__text/__text-color/footer__text-color.css);
