@@ -14,11 +14,10 @@
   }
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 991px) {
   .info__image {
-    margin: 20px 0 0;
-    min-height: 254px;
-    min-width: 280px
+    display: none;
   }
 }
+
 

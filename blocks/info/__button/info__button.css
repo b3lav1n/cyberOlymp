@@ -4,3 +4,9 @@
   justify-content: flex-start;
   text-decoration: none;
 }
+
+@media screen and (max-width: 992px) {
+  .info__button {
+    align-self: flex-start;
+  }
+}

@@ -10,3 +10,25 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1439px) {
+  .instruction__one {
+    max-width:  239px;
+    max-height: 239px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .instruction__one {
+    max-width: none;
+    width: 363px;
+    min-height: 325px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instruction__one {
+    width: 280px;
+    min-height: 259px;
+  }
+}

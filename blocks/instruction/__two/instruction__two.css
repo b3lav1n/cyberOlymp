@@ -1,8 +1,6 @@
 .instruction__two {
   width: 332px;
   min-height: 305px;
-  width: 332px;
-  min-height: 305px;
   border-radius: 20px;
   background-image: linear-gradient(rgba(41, 56,	111, 0.64), rgba(41, 56,	111, 0.64)), url(../../../images/crystalis.svg);
   background-repeat: repeat, no-repeat;
@@ -10,4 +8,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .instruction__two {
+    width:  239px;
+    height: 239px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .instruction__two {
+    width: 355px;
+    min-height: 325px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instruction__two {
+    width: 280px;
+    min-height: 259px;
+  }
 }

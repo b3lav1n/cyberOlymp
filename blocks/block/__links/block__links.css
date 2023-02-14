@@ -2,3 +2,15 @@
   display: flex;
   margin: 291px 0 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .block__links {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-widtH: 1024px) {
+  .block__links {
+    margin: 65px 0 0;
+  }
+}

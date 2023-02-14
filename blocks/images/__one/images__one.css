@@ -1,0 +1,16 @@
+.images__one {
+  background-image: url(../../../images/dazzle2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 161.97px;
+  height: 145px;
+  border-radius: 20px;
+  background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .images__one {
+    width: 100%;
+  }
+}
+

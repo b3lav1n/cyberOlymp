@@ -7,3 +7,11 @@ line-height: 48px;
 letter-spacing: 0.02em;
 margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .block__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

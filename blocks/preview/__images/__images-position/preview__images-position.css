@@ -1,6 +1,7 @@
 .preview__images-position {
   background-image: url(../../../../images/bet.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 330px;
   min-height: 300px;
   border-radius: 20px;
@@ -9,10 +10,19 @@
   justify-content: space-between;
 }
 
-
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 1439px) {
   .preview__images-position {
-    max-width: 283px;
-    min-height: 280px;
+    width: 100%;
+    min-height: 304px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .preview__images-position {
+    width: 300px;
+    height: 280px;  
+    text-align: center;
+  }
+}
+
+

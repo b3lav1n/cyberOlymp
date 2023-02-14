@@ -9,3 +9,19 @@
   margin: 0;
   padding: 324px 0 0 40px;
 }
+
+@media screen and (max-width: 991px) {
+  .images__subtitle {
+    padding: 20px 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .images__subtitle {
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 0 ;
+  }
+}

@@ -14,15 +14,26 @@
 
 @media screen and (max-width: 1439px) {
   .preview__info {
-    max-width: 100%;
+    width: 100%;
     min-height: 800px;
   }
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 767px) {
   .preview__info {
+    background-image: none;
+    background-size: 0%;
     align-items: center;
-    justify-content: center;
-    min-height: 280px;
+    min-height: 0;
   }
 }
+
+
+@media screen and (max-width: 689px) {
+  .preview__info {
+    min-height: 280px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+}
+

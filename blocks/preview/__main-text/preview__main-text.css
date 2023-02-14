@@ -10,9 +10,8 @@
   padding: 20px 0 0 20px;
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 767px) {
   .preview__main-text {
-    padding: 0 0 0 15px;
-
+    padding: 10px 0 0;
   }
 }

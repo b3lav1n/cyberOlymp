@@ -1,3 +1,28 @@
 .block__image {
+  max-width: 673px;
+  min-height: 610px;
   border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .block__image {
+    max-width: 50%;
+    min-height: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .block__image {
+    max-width: 488px;
+    height: 442px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .block__image {
+    display: none;
+  }
 }

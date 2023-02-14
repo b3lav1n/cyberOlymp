@@ -9,6 +9,8 @@
   margin: 0;
 }
 
+
+
 @media screen and (max-width: 689px) {
   .instruction__title {
     font-size: 36px;

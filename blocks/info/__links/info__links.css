@@ -5,6 +5,13 @@
   column-gap: 10px;
 }
 
+@media screen and (max-width: 991px) {
+  .info__links {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 689px) {
   .info__links {
     margin: 20px 0 0;

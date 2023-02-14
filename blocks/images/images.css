@@ -1,9 +1,20 @@
 .images {
   display: flex;
   margin: 40px 40px 0 40px;
-  flex-wrap: wrap;
 }
 
-.images:last-child {
-  align-items: flex-start
+
+@media screen and (max-width: 1439px) {
+  .images {
+    margin: 40px 20px 40px 20px;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .images {
+    margin: 40px 10px 0 10px;
+  }
 }

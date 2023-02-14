@@ -4,5 +4,25 @@
   min-height: 609px;
   background-repeat: no-repeat;
   flex-direction: column;
+  background-size: cover;
   width: 1018px;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .images__block {
+    margin: 10px 0 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .images__block {
+    background-image: none;
+    align-items: center;
+    min-height: 0;
+    max-width: 301px;
+    margin: 0 auto;
+  }
 }

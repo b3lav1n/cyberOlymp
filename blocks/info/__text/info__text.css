@@ -6,12 +6,13 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1050px) {
+
+
+@media screen and (max-width: 767px) {
   .info__text {
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
   }
-
 }
-

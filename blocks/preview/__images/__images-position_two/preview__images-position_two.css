@@ -3,15 +3,24 @@
   width: 330px;
   min-height: 300px;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 20px;
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 1439px) {
   .preview__images-position_two {
-    max-width: 283px;
-    min-height: 280px;
+    width: 100%;
+    min-height: 304px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .preview__images-position_two {
+    max-width: 300px;
+    height: 280px;
+    text-align: center;
   }
 }

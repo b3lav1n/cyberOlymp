@@ -2,3 +2,19 @@
   display: flex;
   margin: 40px;
 }
+
+@media screen and (max-width: 1439px) {
+  .block {
+    margin: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block {
+    max-width: 345px;
+    align-items: center;
+    margin: 40px auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

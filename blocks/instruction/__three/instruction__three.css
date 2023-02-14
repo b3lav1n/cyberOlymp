@@ -9,3 +9,25 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1439px) {
+  .instruction__three {
+    width:  239px;
+    height: 239px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .instruction__three {
+    width: 360px;
+    min-height: 325px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instruction__three {
+    width: 280px;
+    min-height: 259px;
+  }
+}

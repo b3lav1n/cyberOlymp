@@ -6,4 +6,13 @@
   line-height: 29px;
   letter-spacing: 0.02em;
   margin: 20px 0 0;
+  min-height: 203px;
+}
+
+@media screen and (max-width: 767px) {
+  .block__subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

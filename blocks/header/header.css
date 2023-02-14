@@ -5,13 +5,19 @@
   align-items: flex-end;
 }
 
+@media screen and (max-width: 1439px) {
+  .header {
+    margin: 0 21px;
+  }
+}
+
 @media screen and (max-width: 923px) {
   .header {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 767px) {
   .header {
     display: none;
   }

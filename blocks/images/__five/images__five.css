@@ -1,0 +1,21 @@
+.images__five {
+  background-image: url(../../../images/zeus2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 334px;
+  height: 300px;
+  border-radius: 20px;
+  background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .images__five {
+    width: 100%;
+  }
+
+  .images__five:last-child {
+    grid-column-start: 3;
+    grid-row-start: 1;      
+    grid-column-end: 3;
+  }
+}

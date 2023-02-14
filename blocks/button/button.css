@@ -15,11 +15,20 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 1439px){
   .button {
-    width: 150px;
-    min-height: 40px;
-    font-size: 16px;
-    line-height: 19px;
+    width: 237px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .button {
+    width: 333px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 300px
   }
 }
