@@ -35,6 +35,7 @@
 @import url(../blocks/preview/__main-text/preview__main-text.css);
 @import url(../blocks/preview/__subtitle/preview__subtitle.css);
 @import url(../blocks/preview/__logo-active/preview__logo-active.css);
+@import url(../blocks/preview/__link/preview__link.css);
 
 /* info */
 @import url(../blocks/info/info.css);
@@ -55,6 +56,7 @@
 @import url(../blocks/instruction/__two/instruction__two.css);
 @import url(../blocks/instruction/__three/instruction__three.css);
 @import url(../blocks/instruction/__four/instruction__four.css);
+@import url(../blocks/instruction/__link/instruction__link.css);
 
 
 /* block */ 

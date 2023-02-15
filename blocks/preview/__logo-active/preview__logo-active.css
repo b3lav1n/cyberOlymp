@@ -4,3 +4,8 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .preview__logo-active {
+    margin: 20px 0 20px;
+  }
+}
